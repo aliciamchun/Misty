@@ -181,7 +181,8 @@ def what_something_learn_from_humans():
 
 
 def tell_me_a_joke():
-    misty.speak("Sure thing. Let me think.")
+    misty.speak("Yes. Let me think.")
+    # delay 
     misty.speak("How did the robot get across the river?")
     misty.speak("In a row-boat!")
 
@@ -324,6 +325,7 @@ if __name__ == "__main__":
                 break
             if (user == 0):
                 you_let_me_out()
+                # can you ask me the next question? 
             if (user == 1):
                 what_is_your_name()
             elif (user == 2): 
@@ -333,21 +335,26 @@ if __name__ == "__main__":
             elif (user == 4):
                 fun_fact()
             elif (user == 5):
-                where_are_you_from()
+                where_are_you_from() 
             elif (user == 6):
                 what_is_your_favorite_thing_to_do()
             elif (user == 7):
-                do_you_like_music()
+                do_you_like_music() # implement the music question or delete
             elif (user == 8):
                 what_is_your_favorite_game()
             elif (user == 9):
-                if_you_could_pasta_hair()
-            elif (user == 10):
+                if_you_could_pasta_hair() # add picture of pasta
+                # 1, 2
+            elif (user == 10): 
                 what_is_favorite_memory()
             elif (user == 11):
                 what_something_learn_from_humans()
+                # 1: every individual is unique
+                # 2: idk answers
+                # 3: 
             elif (user == 12):
                 if_you_could_switch_lives_for_a_day()
+                # sad emote fix
             elif (user == 13):
                 tell_me_a_joke()
             elif (user == 14):
@@ -356,14 +363,29 @@ if __name__ == "__main__":
                 dead_alive_dinner_guest()
             elif (user == 16):
                 what_greatest_acomplishment()
+                # 1: I value being useful, u? 
+                # 2: That's very iinteresting. 
             elif (user == 17):
                 favorite_season()
+                # 1: Spring! 
+                # 2: Nice
             elif (user == 18):
                 learn_language()
+                # 1:  
+                # 2:CHANGE!1
             elif (user == 19):
                 robots_society()
+                # 1: 
+                # 2: CHANGE
             elif (user == 20):
                 if_you_could_be_any_animal()
+                # Change sad
         except:
             print("Oops, not a number")
             continue
+        # Can you ask me the next quesiton
+        # Add answer for if you don't have a fun facgt
+        # Add where are you from? 
+        # implement the music question 
+        # Code angry faces into the all of them. 
+        # code in neutral events after let out. 
